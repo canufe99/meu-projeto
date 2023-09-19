@@ -1,0 +1,62 @@
+.container__home-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0;        
+}
+
+.container__home-page-left {    
+    margin: 10px;
+    border: 5px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.home-page__photo > img {
+    border: 5px solid gray;
+    border-radius: 5px; 
+}
+
+.container__home-page-right {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid yellow;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+    height: 500px;        
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.home-page__title > h1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-name {
+    color: yellow;
+}
+
+.sub-title {
+    color: grey;
+}
+
+
+.home-page__description {   
+    width: 70%;    
+}
+
+.home-page__description > p {
+    text-align: justify;  
+    font-size: large; 
+}
+
+.home-page__projects > a {        
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+}
+
